@@ -1,0 +1,33 @@
+.container {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputWrapper {
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 300px;
+  background-color: #2f3d4e;
+  height: 24px;
+  border-radius: 6px;
+  border: none;
+  padding-left: 20px;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.inputWrapper button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #d1acb9;
+}

@@ -1,0 +1,48 @@
+.singleTask {
+  margin: 4px;
+  background-color: #2f3d4e;
+  height: 34px;
+  border-radius: 6px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.singleTask input {
+  padding-left: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.singleTask button {
+  margin: 1px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #8b6c79;
+}
+
+.singleTask button:nth-child(3) {
+  color: #6a4f95;
+}
+.singleTask button:nth-child(4) {
+  color: #4d7a6a;
+}
+.singleTask button:nth-child(5) {
+  color: #7d4c46;
+}
+
+.singleTask .important {
+  color: #6a4f95;
+}
+.singleTask .done {
+  color: #4d7a6a;
+}
